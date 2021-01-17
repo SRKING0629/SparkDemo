@@ -1,0 +1,12 @@
+hello world
+hello Scala
+hello Spark
+hello Hadoop
+Spark Scala
+
+bin/spark-submit \
+--class com.srking.Spark.spark_core.WordCount \
+--master yarn \
+--deploy-mode client \
+/Users/wangchunyu/IdeaProjects/Spark/target/Spark-1.0-SNAPSHOT-jar-with-dependencies.jar
+

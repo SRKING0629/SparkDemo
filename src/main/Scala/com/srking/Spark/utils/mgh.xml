@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!-- redis参数设置 -->
+    <redis_ip>localhost:6379</redis_ip>
+    <timeout>60000</timeout>
+    <password>wcyliu136392</password>
+    <max_attempts>10</max_attempts>
+    <so_timeout>6000</so_timeout>
+
+    <group_id></group_id>
+    <topic>video_log</topic>
+    <!-- hbase 参数设置 -->
+    <tableName>mdh:clyh</tableName>
+    <tableNameOrder>migu_music_rec_test:miguhui_busi_order</tableNameOrder>
+    <columnFamily>info</columnFamily>
+    <column>msisdn</column>
+    <zookeeper>localhost:2181</zookeeper>
+
+</configuration>
